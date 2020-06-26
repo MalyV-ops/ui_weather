@@ -1,0 +1,80 @@
+body {
+
+}
+
+.navbar{
+ background: lightskyblue;
+}
+
+header h1{
+    /*padding: 10px 20px;*/
+    /*text-align: center;*/
+    margin-bottom: 50px;
+    color: indigo;
+    font-family: "Bitstream Vera Sans Mono", serif;
+    text-decoration:underline;
+    font-size: 70px;
+}
+
+img{
+    padding-left: 50px;
+    padding-bottom: 10px;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Russo+One);
+.logotype1,
+.logotype1:hover,
+.logotype1 div {
+    position:relative;
+    display:inline-block;
+    font-size:50px;
+    color:#337AB7;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.2);
+    font-family: 'Russo One', sans-serif;
+    font-weight: 300;
+    text-decoration:none;
+    margin:20px 0 20px 26px;
+    line-height:16px;
+}
+.logotype1 div {
+    display:block;
+}
+.logotype1 b {
+    letter-spacing:1px;
+    font-size:44px;
+    color:#1C84D0;
+    -webkit-text-stroke: 1px #BDE1FF;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+    font-weight: 600;
+    background:lightskyblue;
+}
+.logotype1 span {
+    text-shadow: 1px 2px 1px rgba(0,0,0,0.2);
+    display:block;
+    float:right;
+    font-size:20px;
+    color:#337AB7;
+    line-height:10px;
+}
+
+@media (max-width:600px) {
+    .logotype1,
+    .logotype1:hover,
+    .logotype1 div {
+        font-size:26px;
+        line-height:6px;
+        margin:20px 0 20px 20px;
+    }
+    .logotype1 b {
+        font-size:34px;
+    }
+    .logotype1 span {
+        font-size:16px;
+        line-height:4px;
+    }
+}
+
+.form-control{
+    width: 200px;
+
+}
